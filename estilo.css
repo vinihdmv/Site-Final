@@ -1,0 +1,146 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+/*footer*/
+
+footer{
+  background-color: #0e0e0e;
+  margin-top: 90px;
+}
+.footer-container{
+  width: 100%;
+  padding: 70px 30px 1;
+}
+
+.social-icons{
+  display: flex;
+  justify-content: center;
+}
+.social-icons a{
+  text-decoration: none ;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  border-radius: 50%;
+}
+.social-icons a i{
+  font-size: 2em;
+  color: rgb(2, 116, 11);
+  opacity: 0.9;
+}
+.social-icons a:hover{
+ background-image: linear-gradient(45deg, white, #0e0e0e);
+  transition: 0.5s;
+}
+
+.social-icons a:hover i{
+color: rgb(255, 255, 255);
+transition: 0.5s;
+}
+
+.footer-Bottom p{
+color: white;
+background-color: #000000;
+padding: 20px;
+text-align: center;
+}
+.designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+
+/*footer*/
+
+body {
+    background-image: linear-gradient( to top, #000000 ,green, #008927);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    justify-items: center;
+    text-align: center;
+  }
+  
+ 
+  .h1 {
+    color: white;
+    text-align: center;
+    font-size: 6rem;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border: #000000 solid 4px;
+    box-shadow: 10px 10px 90px black;
+    background-image: url(img/misterio1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+  }
+
+  .textos{
+    text-align: center;
+    border: #000000 solid 4px;
+    box-shadow: 9px 8px 7px black;
+    background-image: linear-gradient(45deg, #d0cece ,green, #008927);
+    font-size: 2.3rem;
+  }
+
+
+
+/*imagem efeito*/
+  
+  img{
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    border: solid white;
+    box-shadow: 10px 10px 10px;
+  
+  }
+  .container{
+    position:relative;
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+.legenda{
+    visibility: hidden;
+    position: absolute;
+    left: 260px;
+    top: 140px;
+}
+.legenda {
+    margin: 0;
+    color: aliceblue;
+    text-align: center;
+}
+.container:hover .legenda {
+    visibility: visible;
+}
+
+.container:hover{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0)9.74%, #000000 100%);
+}
+/*imagem efeito*/
+
+
+.legenda1{
+    visibility: hidden;
+    position: absolute;
+    left: 300px;
+    top: 145px;
+}
+
+.container:hover .legenda1 {
+  visibility: visible;
+  color: aliceblue;
+}
+
+#dov{
+  display: flex;
+  justify-content: center;
+}
