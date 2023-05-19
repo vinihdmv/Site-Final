@@ -118,9 +118,7 @@ body {
     color: aliceblue;
     text-align: center;
 }
-.container:hover .legenda {
-    visibility: visible;
-}
+
 
 /*imagem efeito*/
 
