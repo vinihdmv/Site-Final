@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  
+  justify-content: center;
 }
 
 /*footer*/
@@ -122,9 +122,6 @@ body {
     visibility: visible;
 }
 
-.container:hover{
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0)9.74%, #000000 100%);
-}
 /*imagem efeito*/
 
 
