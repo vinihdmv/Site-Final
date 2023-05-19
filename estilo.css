@@ -112,14 +112,17 @@ body {
     position: absolute;
     left: 260px;
     top: 140px;
-}
-.legenda {
     margin: 0;
     color: aliceblue;
     text-align: center;
+  
 }
-
-
+.container:hover .legenda{
+visibility: visible;
+}
+.container:hover{
+background: linear-gradient(180deg, rgba(0, 0, 0, 0)9.74%, #000000 100%);
+}
 /*imagem efeito*/
 
 
@@ -130,7 +133,7 @@ body {
     top: 145px;
 }
 
-.container:hover .legenda1 {
+.container:hover .legenda1{
   visibility: visible;
   color: aliceblue;
 }
